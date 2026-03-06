@@ -35,7 +35,7 @@ class Program
                         // StampaElenco();
                         break;
                     case 5:
-                        //ExportCsv(stringhe);
+                        // ExportCsv(stringhe);
                         EsportaProdotti(stringhe);
                         break;
                     case 0:
@@ -52,7 +52,7 @@ class Program
 
     public static void EsportaProdotti(List<String> stringhe)
     {
-        string percorso = "C:\\Users\\fabri\\Documents\\GitHub\\MacroEsercizioGruppo2\\prodotti.csv";
+        string percorso = "prodotti.csv";
 
         using (StreamWriter sw = new StreamWriter(percorso))
         {
