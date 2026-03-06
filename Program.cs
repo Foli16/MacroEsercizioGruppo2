@@ -35,7 +35,6 @@ class Program
                         // StampaElenco();
                         break;
                     case 5:
-                        // ExportCsv(stringhe);
                         EsportaProdotti(stringhe);
                         break;
                     case 0:
